@@ -16,26 +16,31 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login_message"
-        android:id="@+id/textView2" />
+        android:text="@string/loginEmailTxtViewTxt"
+        android:id="@+id/loginEmailTxtView" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:hint="@string/hint_message"
+        android:id="@+id/loginEmailEditTxt"
         android:inputType="textEmailAddress" />
 
-    <EditText
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2"
-        android:text="@string/password_message" />
+        android:text="@string/loginPasswordTxtViewTxt"
+        android:id="@+id/loginPasswordTxtView" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText3"
+        android:id="@+id/loginPasswordEditTxt"
         android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginLoginBtn"
+        android:text="@string/loginLoginBtnTxt" />
 
 </LinearLayout>

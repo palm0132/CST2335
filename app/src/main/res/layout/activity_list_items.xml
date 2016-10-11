@@ -16,28 +16,31 @@
         android:layout_height="wrap_content"
         android:layout_row="0"
         android:layout_column="0"
-        android:text="@string/ButtonText2" />
+        android:text="@string/listItemsRadioBtnTxt" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Checkbox1"
-        android:id="@+id/checkBox"
         android:layout_row="0"
-        android:layout_column="1" />
+        android:layout_column="1"
+        android:text="@string/listItemsChkBxTxt"
+        android:id="@+id/listItemsChkBx" />
 
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/SwitchText"
         android:layout_row="1"
-        android:layout_column="0" />
+        android:layout_column="0"
+        android:text="@string/listItemsEnableSwitchTxt"
+        android:id="@+id/listItemsEnableSwitch"
+        android:checked="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_row="1"
         android:layout_column="1"
-        android:background="@android:drawable/btn_star_big_on" />
+        android:background="@android:drawable/btn_star_big_on"
+        android:id="@+id/listItemsImgBtn" />
 
 </GridLayout>

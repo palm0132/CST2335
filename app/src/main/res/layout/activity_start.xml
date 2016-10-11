@@ -12,14 +12,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_message"
+        android:text="@string/startHelloWorldTxtViewTxt"
         android:id="@+id/textView" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ButtonText"
-        android:id="@+id/button"
+        android:text="@string/startImABtnTxt"
+        android:id="@+id/startImABtn"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true" />
+
 </RelativeLayout>

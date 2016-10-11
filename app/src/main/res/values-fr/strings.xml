@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Lab 1</string>
-    <string name="hello_message">Bonjour le Monde!</string>
-    <string name="ButtonText">Je suis un bouton</string>
     <string name="title_activity_login">ConnexionActivité</string>
-    <string name="login_message">S\'identifier</string>
-    <string name="hint_message">identifiant</string>
-    <string name="password_message">Mot de passe</string>
-    <string name="ButtonText2">Bouton 1</string>
-    <string name="Checkbox1">Checkbox 1</string>
-    <string name="SwitchText">Activer quelque chose</string>
+
+    <string name="startHelloWorldTxtViewTxt">Bonjour le Monde!</string>
+    <string name="startImABtnTxt">Je suis un bouton</string>
+
+    <string name="loginEmailTxtViewTxt">Email</string>
+    <string name="loginPasswordTxtViewTxt">Mot de passe</string>
+    <string name="loginLoginBtnTxt">S\'identifier</string>
+
+    <string name="listItemsRadioBtnTxt">Bouton 1</string>
+    <string name="listItemsChkBxTxt">Checkbox 1</string>
+    <string name="listItemsEnableSwitchTxt">Activer quelque chose</string>
+
+    <string name="first_time_email">email@domaine.com</string>
+
+    <string name="dialog_message">Voulez-vous terminer l'activité?</string>
+    <string name="dialog_title">Question</string>
+    <string name="ok">Oui</string>
+    <string name="cancel">Non</string>
+
 </resources>
