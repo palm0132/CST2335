@@ -21,11 +21,22 @@ public class StartActivity extends AppCompatActivity {
         Log.i(ACTIVITY_NAME, "In onCreate()");
 
         Button startImABtn = (Button) findViewById(R.id.startImABtn);
+        Button startChatBtn = (Button) findViewById(R.id.startChatBtn);
+
         startImABtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(StartActivity.this, ListItemsActivity.class);
                 startActivityForResult(intent, MESSAGE_REQUEST_CODE);
+            }
+        });
+
+        startChatBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+                Intent intent = new Intent(StartActivity.this, ChatWindow.class);
+                startActivity(intent);
             }
         });
 
@@ -37,12 +48,10 @@ public class StartActivity extends AppCompatActivity {
         if (requestCode == MESSAGE_REQUEST_CODE){
             Log.i(ACTIVITY_NAME, "Returned to StartActivity.onActivityResult");
         }
-        // #11.1
+        // #11
         if (responseCode == Activity.RESULT_OK){
             // Log.i(ACTIVITY_NAME, "Returned to StartActivity.onActivityResult");
-            // #11.2
             // String messagePassed = data.getStringExtra("Response");
-            // #11.3
             // Add toast to display info in intent // displays ListItemsActivity passed: My information to share
             // Set Toast’s display time to either short or long
             // static final int LENGTH_SHORT = 1;

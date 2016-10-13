@@ -6,6 +6,7 @@
 
     <string name="startHelloWorldTxtViewTxt">Bonjour le Monde!</string>
     <string name="startImABtnTxt">Je suis un bouton</string>
+    <string name="startChatBtnTxt">Démarrer la Discussion</string>
 
     <string name="loginEmailTxtViewTxt">Email</string>
     <string name="loginPasswordTxtViewTxt">Mot de passe</string>
@@ -17,9 +18,12 @@
 
     <string name="first_time_email">email@domaine.com</string>
 
-    <string name="dialog_message">Voulez-vous terminer l'activité?</string>
+    <string name="dialog_message">Voulez-vous terminer l\'activité?</string>
     <string name="dialog_title">Question</string>
     <string name="ok">Oui</string>
     <string name="cancel">Non</string>
+
+    <string name="title_activity_chat_window">Fenêtre de Discussion</string>
+    <string name="chatSendBtnTxt">Envoyer</string>
 
 </resources>

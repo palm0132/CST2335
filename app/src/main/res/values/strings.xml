@@ -6,6 +6,7 @@
 
     <string name="startHelloWorldTxtViewTxt">Hello World!</string>
     <string name="startImABtnTxt">I\'m a button</string>
+    <string name="startChatBtnTxt">Start Chat</string>
 
     <string name="loginEmailTxtViewTxt">Email</string>
     <string name="loginPasswordTxtViewTxt">Password</string>
@@ -21,5 +22,8 @@
     <string name="dialog_title">Question</string>
     <string name="ok">Yes</string>
     <string name="cancel">No</string>
+
+    <string name="title_activity_chat_window">ChatWindow</string>
+    <string name="chatSendBtnTxt">Send</string>
 
 </resources>
