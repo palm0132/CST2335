@@ -20,8 +20,6 @@ public class ListItemsActivity extends AppCompatActivity {
 
     protected static final String ACTIVITY_NAME = "ListItemsActivity";
     static final int REQUEST_IMAGE_CAPTURE = 1;
-    // static final int LENGTH_SHORT = 1;
-    // static final int LENGTH_LONG = 1;
 
     ImageButton listItemsImgBtn;
 
@@ -62,14 +60,14 @@ public class ListItemsActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 // Chain together various setter methods to set the dialog characteristics
                 AlertDialog.Builder builder = new AlertDialog.Builder(ListItemsActivity.this);
-                //Add a dialog message to strings.xml
+                // Add a dialog message to strings.xml
                 builder.setMessage(R.string.dialog_message)
                 .setTitle(R.string.dialog_title)
                 .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         // User clicked OK button
                         // #10
-                        Intent resultIntent = new Intent(  );
+                        Intent resultIntent = new Intent();
                         resultIntent.putExtra("Response", "My information to share");
                         setResult(Activity.RESULT_OK, resultIntent);
                         finish();

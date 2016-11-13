@@ -7,6 +7,7 @@
     <string name="startHelloWorldTxtViewTxt">Bonjour le Monde!</string>
     <string name="startImABtnTxt">Je suis un bouton</string>
     <string name="startChatBtnTxt">Démarrer la Discussion</string>
+    <string name="weatherForecastBtnTxt">Prévisions Météorologiques</string>
 
     <string name="loginEmailTxtViewTxt">Email</string>
     <string name="loginPasswordTxtViewTxt">Mot de passe</string>

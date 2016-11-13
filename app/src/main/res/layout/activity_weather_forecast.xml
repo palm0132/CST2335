@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_weather_forecast"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.michael.lab1.WeatherForecastActivity">
+
+    <ImageView
+        android:id="@+id/weatherForecastImgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/alert_light_frame"
+        android:minHeight="200dp"
+        android:minWidth="200dp"
+        android:layout_above="@+id/currTempTxtView"
+        android:layout_alignEnd="@+id/maxTempTxtView"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="90dp" />
+
+    <ProgressBar
+        android:id="@+id/weatherProgBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="14dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/minTempTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:minWidth="200dp"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/maxTempTxtView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/curTempTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:minWidth="200dp"
+        android:layout_above="@+id/minTempTxtView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/maxTempTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:minWidth="200dp"
+        android:layout_marginBottom="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

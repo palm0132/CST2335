@@ -27,7 +27,7 @@
         android:id="@+id/chatMsgEditTxt"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@id/chatSendBtn"/>
+        android:layout_toLeftOf="@+id/chatSendBtn"/>
 
     <Button
         android:layout_width="wrap_content"

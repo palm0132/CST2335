@@ -16,20 +16,29 @@
         android:id="@+id/textView" />
 
     <Button
+        android:id="@+id/startImABtn"
+        android:text="@string/startImABtnTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/startImABtnTxt"
-        android:id="@+id/startImABtn"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true" />
 
     <Button
+        android:id="@+id/startChatBtn"
+        android:text="@string/startChatBtnTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/startChatBtnTxt"
-        android:id="@+id/startChatBtn"
+        android:layout_marginTop="16dp"
         android:layout_below="@+id/startImABtn"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/weatherForecastBtn"
+        android:text="@string/weatherForecastBtnTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startChatBtn"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="48dp" />
+        android:layout_marginTop="24dp" />
 
 </RelativeLayout>

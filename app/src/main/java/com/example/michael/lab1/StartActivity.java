@@ -22,6 +22,7 @@ public class StartActivity extends AppCompatActivity {
 
         Button startImABtn = (Button) findViewById(R.id.startImABtn);
         Button startChatBtn = (Button) findViewById(R.id.startChatBtn);
+        Button weatherForecastBtn = (Button) findViewById(R.id.weatherForecastBtn);
 
         startImABtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +41,14 @@ public class StartActivity extends AppCompatActivity {
             }
         });
 
+        weatherForecastBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(StartActivity.this, WeatherForecastActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     // #6.3
@@ -54,8 +63,6 @@ public class StartActivity extends AppCompatActivity {
             // String messagePassed = data.getStringExtra("Response");
             // Add toast to display info in intent // displays ListItemsActivity passed: My information to share
             // Set Toast’s display time to either short or long
-            // static final int LENGTH_SHORT = 1;
-            // static final int LENGTH_LONG = 1;
 
             //this is the ListActivity
             Toast toast = Toast.makeText(this , "ListItemsActivity passed: My information to share", Toast.LENGTH_LONG);
