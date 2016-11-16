@@ -26,5 +26,7 @@
 
     <string name="title_activity_chat_window">ChatWindow</string>
     <string name="chatSendBtnTxt">Send</string>
+    <string name="title_message_list">Messages</string>
+    <string name="title_message_detail">Message Detail</string>
 
 </resources>
